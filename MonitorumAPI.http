@@ -2,5 +2,14 @@
 
 GET {{MonitorumAPI_HostAddress}}/weatherforecast/
 Accept: application/json
+###
+
+GET {{MonitorumAPI_HostAddress}}/user/
+Accept: application/json
 
 ###
+POST {{MonitorumAPI_HostAddress}}/user/
+Content-Type: application/json
+{
+    "name": "Brujjah"
+}
