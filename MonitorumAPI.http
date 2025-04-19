@@ -1,0 +1,6 @@
+@MonitorumAPI_HostAddress = http://localhost:5072
+
+GET {{MonitorumAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
