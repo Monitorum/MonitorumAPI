@@ -11,5 +11,5 @@ Accept: application/json
 POST {{MonitorumAPI_HostAddress}}/user/
 Content-Type: application/json
 {
-    "name": "Brujjah"
+    "name": "Brujah"
 }
